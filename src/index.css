@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #F0F4FF;
+  color: #333;
+}
+
+
+.parent{
+padding: 40px;
+display: flex;
+flex-wrap: wrap;
+  gap: 24px;
+}
+
+.card{
+  width: 300px;
+  height: 280px;
+  margin-top: 20px;
+  padding: 6px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background-color: white;
+}
+.main{
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color:#e0f0ff;
+  width: 286px;
+  height: 210px;
+  padding: 17px;
+}
+.top{display: flex;
+flex-direction: column
+;
+gap: 9px;}
+
+.top h1{
+  font-size: 26px;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.top p{
+font-size: 12px;
+font-weight: 500;
+}
+.tags{
+  
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 22px;
+  gap: 5px;
+}
+.tags h2{
+  font-size: 14px;
+  border: 1px solid transparent;
+  border-radius: 13px;
+  padding: 7px;
+    background-color: #BBDCF7;
+
+}
+.bottom{
+  display: flex;
+  padding: 10px;
+  font-size: 10px;
+  font-weight: 500px;
+  gap: 140px;
+  margin-top: 10px;
+}
+.bottom h2{
+  margin-top: 6px;
+}
+
+.bottom button {
+  height: 30px;
+  width:30px;
+  padding: 2px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: gray;
+  
+}
